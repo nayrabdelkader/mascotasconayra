@@ -1,0 +1,76 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3e5f5; /* Color de fondo malva claro */
+    color: #4a148c; /* Texto en un tono oscuro de malva */
+    margin: 0;
+    padding: 0;
+}
+
+/* Menú de navegación */
+nav {
+    background-color: #ce93d8; /* Fondo malva medio */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff; /* Texto en blanco */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    background-color: #ba68c8; /* Malva más oscuro para hover */
+    border-radius: 5px;
+}
+
+/* Secciones con columnas */
+.section-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.column {
+    flex: 1;
+    margin: 10px;
+}
+
+.column img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Encabezados */
+h2 {
+    color: #6a1b9a; /* Color malva oscuro para encabezados */
+    border-bottom: 2px solid #ab47bc; /* Línea malva para estilo */
+    padding-bottom: 10px;
+}
+
+/* Párrafos */
+p {
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+/* Ajuste para dispositivos móviles */
+@media (max-width: 768px) {
+    .section-content {
+        flex-direction: column;
+    }
+}
